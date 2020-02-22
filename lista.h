@@ -17,5 +17,12 @@ void imprimir_lista (Lista* list);
 
  
  //função para buscar elementos na lista
- Lista* buscar(Lista * list, int vetor);
+ Lista* buscar(Lista* list, int vetor);
+ 
+//funca remocao da lista
+Lista* remover(Lista* list, int vetor);
+
+//liberar lista
+void liberar(Lista* list);
+	
  
