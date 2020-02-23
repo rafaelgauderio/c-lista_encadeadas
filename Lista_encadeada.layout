@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout>
 	<Files>
-		<File Name="lista.c" Top="No" Tabpos="1" TopLine="32">
-			<Cursor Line="65" Column="15"/>
+		<File Name="lista.c" Top="No" Tabpos="1" TopLine="122">
+			<Cursor Line="141" Column="18"/>
 		</File>
-		<File Name="lista.h" Top="No" Tabpos="2" TopLine="1">
-			<Cursor Line="21" Column="2"/>
+		<File Name="lista.h" Top="No" Tabpos="2" TopLine="12">
+			<Cursor Line="29" Column="1"/>
+			<Selection Line="29" Column="58"/>
 		</File>
-		<File Name="main.c" Top="Yes" Tabpos="3" TopLine="20">
-			<Cursor Line="39" Column="3"/>
+		<File Name="main.c" Top="No" Tabpos="3" TopLine="58">
+			<Cursor Line="68" Column="2"/>
 		</File>
 	</Files>
 </Layout>

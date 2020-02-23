@@ -24,5 +24,10 @@ Lista* remover(Lista* list, int vetor);
 
 //liberar lista
 void liberar(Lista* list);
+
+//compara duas listas
+int comparar_se_sao_iguais(Lista* lista1, Lista* lista2);
+
+
 	
  

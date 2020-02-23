@@ -122,3 +122,21 @@ void liberar(Lista* list)
 	}
 
 }
+
+//vai ter que ter 2 ponteiros associados para percorrer a lista simultaneamente
+//e comparar a cada par de elemento
+int comparar_se_sao_iguais(Lista* lista1, Lista* lista2)
+{
+	Lista* p1 = lista1;
+	Lista* p2 = lista2;
+
+	while (p1 != NULL && p2 != NULL)
+	{
+		if (p1->informacao != p2-> informacao)
+			//retorna 0 indicando que sao diferentes
+			return 0;
+		p1 = p1->prox;
+		p2 = p2->prox;
+	}
+	return  p1 == p2;
+}
